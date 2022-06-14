@@ -1,0 +1,53 @@
+log4j:WARN No appenders could be found for logger (org.reflections.Reflections).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickElementById' and 'org.example.StepImplementation.clickElementById'"}
+{"logLevel":"debug","message":"Found Id li {} elemente tıkla. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.waitSecont' and 'org.example.StepImplementation.waitSecont'"}
+{"logLevel":"debug","message":"Found {} saniye kadar bekle. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickElementByXpath' and 'org.example.StepImplementation.clickElementByXpath'"}
+{"logLevel":"debug","message":"Found Xpath li {} elemente tıkla. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.sendKeysByXpath' and 'org.example.StepImplementation.sendKeysByXpath'"}
+{"logLevel":"debug","message":"Found Xpath li {} elemeniti bul ve {} değeri yaz. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickElementByCss' and 'org.example.StepImplementation.clickElementByCss'"}
+{"logLevel":"debug","message":"Found Css li {} elemente tıkla. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.sendKeysById' and 'org.example.StepImplementation.sendKeysById'"}
+{"logLevel":"debug","message":"Found Id li {} elemeniti bul ve {} değeri yaz. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.sendKeysByCss' and 'org.example.StepImplementation.sendKeysByCss'"}
+{"logLevel":"debug","message":"Found Css li {} elemeniti bul ve {} değeri yaz. in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps: "}
+{"logLevel":"debug","message":"\tId li {} elemente tıkla. : public void clickElementById(String element)"}
+{"logLevel":"debug","message":"\tCss li {} elemente tıkla. : public void clickElementByCss(String element)"}
+{"logLevel":"debug","message":"\t{} saniye kadar bekle. : public void waitSecont(ınt key) throws Exception"}
+{"logLevel":"debug","message":"\tCss li {} elemeniti bul ve {} değeri yaz. : public void sendKeysByCss(String element, String key)"}
+{"logLevel":"debug","message":"\tXpath li {} elemeniti bul ve {} değeri yaz. : public void sendKeysByXpath(String element, String key)"}
+{"logLevel":"debug","message":"\tId li {} elemeniti bul ve {} değeri yaz. : public void sendKeysById(String element, String key)"}
+{"logLevel":"debug","message":"\tXpath li {} elemente tıkla. : public void clickElementByXpath(String element)"}
+{"logLevel":"info","message":"Listening on port:60003"}
+Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 12290
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Haz 13, 2022 6:14:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle.' using 'class org.example.StepImplementation.waitSecont"}
+{"logLevel":"debug","message":"Executing 'Css li {} elemente tıkla.' using 'class org.example.StepImplementation.clickElementByCss"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle.' using 'class org.example.StepImplementation.waitSecont"}
+{"logLevel":"debug","message":"Executing 'Id li {} elemeniti bul ve {} değeri yaz.' using 'class org.example.StepImplementation.sendKeysById"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle.' using 'class org.example.StepImplementation.waitSecont"}
+{"logLevel":"debug","message":"Executing 'Id li {} elemeniti bul ve {} değeri yaz.' using 'class org.example.StepImplementation.sendKeysById"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle.' using 'class org.example.StepImplementation.waitSecont"}
+{"logLevel":"debug","message":"Executing 'Id li {} elemente tıkla.' using 'class org.example.StepImplementation.clickElementById"}
+Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 39861
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Haz 13, 2022 6:15:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle.' using 'class org.example.StepImplementation.waitSecont"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle.' using 'class org.example.StepImplementation.waitSecont"}
+{"logLevel":"debug","message":"Executing 'Css li {} elemente tıkla.' using 'class org.example.StepImplementation.clickElementByCss"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle.' using 'class org.example.StepImplementation.waitSecont"}
+{"logLevel":"debug","message":"Executing 'Css li {} elemente tıkla.' using 'class org.example.StepImplementation.clickElementByCss"}

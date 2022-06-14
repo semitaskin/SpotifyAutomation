@@ -1,0 +1,17 @@
+log4j:WARN No appenders could be found for logger (org.reflections.Reflections).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.waitSecont' and 'org.example.StepImplementation.waitSecont'"}
+{"logLevel":"debug","message":"Found {} saniye kadar bekle. in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps: "}
+{"logLevel":"debug","message":"\t{} saniye kadar bekle. : public void waitSecont(ınt key) throws Exception"}
+{"logLevel":"info","message":"Listening on port:53782"}
+Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 12292
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Haz 13, 2022 4:31:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle.' using 'class org.example.StepImplementation.waitSecont"}
